@@ -1,2 +1,10 @@
+import imp
 from flask_wtf import FlaskForm
-from wtforms 
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
+
+
+class AddTaskForm():
+    title = StringField('Title', validators=[])
+    
+    # 5. Refactoring and Forms ; 07:41
