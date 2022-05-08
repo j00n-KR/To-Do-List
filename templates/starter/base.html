@@ -20,12 +20,10 @@
       </nav>
       <br>
       {% with messages = get_flashed_messages() %}
-      <!--app > flash > ('') fetch -->
         {% if messages %}
           {% for message in messages %}
           <div class="alert alert-primary">
             {{ message }}
-            <!-- iterate 를 통해 fetch 한 flash messages 를 출력 -->
           </div>
           {% endfor %}
         {% endif %}

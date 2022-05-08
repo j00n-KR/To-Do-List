@@ -14,6 +14,10 @@ data.db 를 제대로 생성하기 위해선 app>db 뿐만 아니라 models>Task
 : python3 에디터 접속 -> from app import db -> from models import Task
 -> db.create_all() -> 폴더 내에 data.db 파일 생성
 
+혹은
+
+: python3 에디터 접속 -> from models import db 도 가능
+
 * 즉, db 는 파일을 생성하기 위한 용도, Task 는 파일 안에 정보를 위한 용도임을 확인할 수 있다.
 """
 

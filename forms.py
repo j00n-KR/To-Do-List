@@ -9,3 +9,7 @@ class AddTaskForm(FlaskForm):
     submit = SubmitField('Submit')
     
     # 5. Refactoring and Forms ; 07:41
+    
+    
+class DeleteTaskFrom(FlaskForm):
+    submit = SubmitField('Delete')
