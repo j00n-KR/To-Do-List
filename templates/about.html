@@ -2,4 +2,7 @@
 
 {% block main%}
 <p> Some content on the about page!</p>
+<form action="post">
+    {{ form.csrf_token() }}
+</form>
 {% endblock%}
