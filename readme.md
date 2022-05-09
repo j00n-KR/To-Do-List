@@ -1,4 +1,4 @@
-# <To Do List>
+# To Do List
   
 
 ## Web App with Python and Flask
@@ -18,6 +18,7 @@
 
   
   * /templates : html 코드
+  
   
   
   1. app.py 를 통해 실행
