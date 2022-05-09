@@ -9,7 +9,12 @@
 
 : Pyton 과 Flask 를 사용하여 Web App 생성
 
-## 2. 설명
+## 2. 구조
+
+- 사용 툴 : Python, Flask, Flask_Sqlalchemy, render_templates, url_for, flash, wtforms, Jinja template, html, Sqlite
+- 실행 방법 : app.py 실행
+
+## 3. Web App 기능
 
 To Do List
 
